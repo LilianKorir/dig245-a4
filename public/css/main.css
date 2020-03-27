@@ -1,0 +1,101 @@
+.group:before,
+.group:after{
+	content: "";
+display: table;
+}
+.group:after {
+	clear:both;
+}
+.group {
+	clear: both;
+}
+html{
+  background-color: rgb(157, 59, 134);
+  width: auto;
+}
+header{
+  background-color: teal;
+  text-align: center;
+  width: 100%;
+}
+
+
+h2 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+  font-style: italic;
+  color: rgba(233, 60, 30, 0.808);
+	line-height: 44px;
+	padding: 20px 80px 10px 88px;
+	text-align: center;
+}h3{
+  font-size:14px;
+  line-height: 22px;
+}
+h5{
+  color: rgb(49, 23, 197);;
+  font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+h6{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  font-style: italic;
+  color: rgba(233, 60, 30, 0.808);
+}
+.header{
+	border-top:10px solid #d05e21;
+	text-align:center;
+	font-size: 38px;
+	font-weight: 100;
+  letter-spacing: .5px;
+	line-height: 44px;
+	padding: 10px 0 0 0;
+  text-transform: capitalize;
+}
+.i1{
+  padding: 0 80px 60px 0;
+  float:left;
+}
+.i2{
+  padding: 0 0 60px 0;
+  float:right;
+}
+.activities{
+  clear: both;
+  width:100%;
+}
+.classes{
+  clear:both;
+  width: 100%;
+}
+.studyabroad{
+  clear:both;
+}
+.row{
+  padding: 0 300px 0 300px;
+  background: #cbe2c1;
+	background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+}
+
+.col-1-3 {
+  clear:both;
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}
+.rows{
+  clear:both;
+}
+
+footer{
+background-color: teal;
+text-align: center;
+}
+.footer{
+  padding: 60px 150px 0 150px;
+}
+.ff{
+  color:white;
+}
